@@ -15,18 +15,27 @@ var keySets = {
 
 }
 
-//function to generate
+//function to generate questions
 var generatePassword = function() {
   var length = window.prompt("What lenght should the password be?\n Enter a number of digits between " +
     passlength.minLength + "-" + passlength.maxLength + ".");
-  if (length === null)
-    return "";
+
+  var lowercase = window.prompt("Do you want to use lower case characters?\n Enter yes or no");
+
+  var uppercase = window.prompt("Do you want to use upper case characters?\n Enter yes or no");
+
+  var numberkeys = window.prompt("Do you want to use number characters?\n Enter yes or no")
+
+  var specialkeys = window.prompt("Do you want to use special characters?\n Enter yes or no")
+  return;
 }
+
 
 //generate password with correct length
 var getPassword = function(max, min) {
   return Math.floor(Math.password() * (max- min) + min);
 }
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
