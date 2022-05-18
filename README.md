@@ -20,4 +20,4 @@ https://github.com/Rodash4/PasswordGenerator
 
 The following image shows the web application's appearance and functionality:
 
-![The password generator generates a password that meets the criteria the user sets.](images.Passgen.PNG)
+![The password generator generates a password that meets the criteria the user sets.]images/Passgen.PNG
